@@ -9,13 +9,8 @@ var Sequelize = require("sequelize");
 var sequelize = new Sequelize("searchresults", "root", "root", {
   host: "localhost",
   port: 8889,
-  dialect: "mysql",
-  pool: {
-    max: 5,
-    min: 0,
-    idle: 10000
-  }
+  dialect: "mysql"
 });
 
 // Exports the connection for other files to use
-module.exports = sequelize;
+module.exports = sequelize;          
