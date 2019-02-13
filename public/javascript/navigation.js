@@ -1,0 +1,1 @@
+document.write("<ul class='nav'><li class='nav-item'><a class='nav-link active' href='home.html'>Home</a></li><li class='nav-item'><a class='nav-link' href='results.html'>Results</a></li><li class='nav-item'><a class='nav-link' href='#'>Link</a></li><li class='nav-item'><a class='nav-link disabled' href='#'>Disabled</a></li></ul>");
