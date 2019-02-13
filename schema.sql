@@ -3,6 +3,8 @@ DROP DATABASE IF EXISTS searchresults;
 -- Creates the "user" database --
 CREATE DATABASE searchresults;
 
+USE searchresults;
+
 CREATE TABLE users (
  id int(11) NOT NULL AUTO_INCREMENT,
  first_name varchar(100) COLLATE utf8_unicode_ci NOT NULL,
